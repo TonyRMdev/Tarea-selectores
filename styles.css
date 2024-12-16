@@ -1,0 +1,27 @@
+/* Hoja de estilos*/
+/*1. Colocar las tareas pendientes en color #CA9494*/
+.pendientes {
+    color: #CA9494;
+}
+/*2. Colocar las tareas pendientes importantes en color rojo */
+.importante {
+    color: red;
+}
+/*3.Colocar las tareas en progreso en color #BAE26A*/
+.en_progreso {
+    color: #BAE26A;
+}
+/*4. Colocar las tareas completadas en color #d4d1d0 y tachadas*/
+.completada {
+    color: #d4d1d0;
+    text-decoration: line-through;
+}
+/*5. Colocar las tareas en progreso importantes en color #33eb2a y en negrita*/
+.en_progreso .importante {
+    color: #33eb2a;
+    font-weight: bold;
+}
+/*6.Colocar el span del footer en color naranja*/
+footer span {
+    color: orange;
+}
